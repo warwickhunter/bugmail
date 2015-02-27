@@ -4,7 +4,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>{32d96adf-23fc-403d-a1c8-e5cf6a019bee}</em:id>
-    <em:version>2.0</em:version>
+    <em:version>2.1</em:version>
     
    
     <!-- Thunderbird --> 

@@ -31,8 +31,8 @@ bugmail extension for Thunderbird
       &#160;<xsl:value-of select="product"/> / <xsl:value-of select="component"/> |
       <span id="bug_status" class="{bug_status}"><xsl:value-of select="bug_status"/></span>&#160;
       <span id="bug_resolution" class="{resolution}"><xsl:value-of select="resolution"/></span> |
-      <a href="mailto:{assigned_to}"><xsl:value-of select="assigned_to/@name"/></a> |
-      <span id="bug_keywords"><xsl:value-of select="keywords"/></span> |
+      <span id="bug_priority"><xsl:value-of select="priority"/></span> |
+      <a href="mailto:{assigned_to}"><xsl:value-of select="assigned_to/@name"/></a>
     </div>
  </xsl:template>
  
