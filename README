@@ -1,1 +1,5 @@
 A Thunderbird add-on to help with bugmail
+
+To produce an installable XPI file do this:
+  cd into the bugmail directory
+  zip -9r ../bugmail-2.1.xpi *
